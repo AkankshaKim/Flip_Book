@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (isAtBeginning) {
             book.style.transform = "translateX(0%)";
         } else {
-            book.style.transform = "translateX(0%)"; // Return book to original position
+            book.style.transform = "translateX(100%)"; // Return book to original position
         }
         prevbtn.style.transform = "translateX(0px)"; // Move previous button back to original position
         nextbtn.style.transform = "translateX(0px)";
